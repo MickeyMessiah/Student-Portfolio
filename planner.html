@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner - Academic Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>Academic Portfolio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html" class="active">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Academic Task Planner</h1>
+        <p>Manage your daily academic goals, assignments, and study schedule below.</p>
+
+        <!-- Task Input Section -->
+        <section class="planner-input">
+            <input type="text" id="taskInput" placeholder="Enter a new academic task...">
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+
+        <!-- Task List Section -->
+        <section class="planner-list-container">
+            <h2>Your Tasks</h2>
+            <ul id="taskList">
+                <!-- Dynamic tasks will be added here via JavaScript -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Academic Management Website. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
